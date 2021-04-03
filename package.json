@@ -1,0 +1,25 @@
+{
+  "name": "node-sqlite-template",
+  "version": "0.0.1",
+  "description": "A starter for a node server with an sqlite db",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickweaver/node-sqlite-template.git"
+  },
+  "author": "Patrick Weaver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickweaver/node-sqlite-template/issues"
+  },
+  "homepage": "https://github.com/patrickweaver/node-sqlite-template#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "uuid": "^3.4.0"
+  }
+}
